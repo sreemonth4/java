@@ -6,7 +6,7 @@ public class Main{
    String s="bo00ghjob";
    int n=s.length();
    for(int i=0;i<n/2;i++){
-     System.out.println(i);
+  //   System.out.println(i);
      if(s.charAt(i)!=s.charAt(n-i-1)){
        palindrome=false;
        break;
@@ -21,3 +21,4 @@ public class Main{
 }
 
 output: No // will be printed for above string input.
+//main logic is for this palindrome program is char(i) is not equal to char(n-i-1)
